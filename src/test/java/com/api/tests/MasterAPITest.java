@@ -59,7 +59,7 @@ public class MasterAPITest {
 		.post("master") //default content-type application/url-formencoded
 		.then()
 		.log().all()
-		.statusCode(408);
+		.statusCode(401);
 		
 	}
 	 
